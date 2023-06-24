@@ -13,9 +13,13 @@ eureka:
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://jabhinath1995:uN7H3FpueIcZx4K8@cluster0.tllxlzz.mongodb.net/cluster0?retryWrites=true&w=majority
+      uri: mongodb://localhost:27017
+      database: Nuline
   application:
     name: ms-nuline-admin
+
+jwt:
+  secret: YmU2ZDc5MTE5ZDAxZGFmMGQyYzgzZmZlMmZkMWFiMjVmYzBjMzIzZDEzZGM5N2IxZGZlNjU0ODQ2MDQwNzI5ZjFhOGEyNGY4N2M5OTlhMjMxNDVlOTJkODBhMGVkNGM5NWE4NjAxZWI1Y2ZiNWVlN2JhNThkMGQxYjhmMzczYTA=
         
 
 

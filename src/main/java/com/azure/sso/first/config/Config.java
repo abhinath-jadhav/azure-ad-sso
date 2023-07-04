@@ -1,4 +1,4 @@
-package com.nuline.ms.admin.config;
+package com.azure.sso.first.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

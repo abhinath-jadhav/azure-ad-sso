@@ -1,25 +1,10 @@
 server:
   port: 8080
-
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-    registerWithEureka: true
-    fetchRegistry: true
-
-# Application information
-spring:
-  data:
-    mongodb:
-      uri: mongodb://mongo:MkBI6oX9pOSylRH41CKQ@containers-us-west-163.railway.app:7682
-      database: nuline-dev
-  application:
-    name: ms-admin
-
 jwt:
   secret: YmU2ZDc5MTE5ZDAxZGFmMGQyYzgzZmZlMmZkMWFiMjVmYzBjMzIzZDEzZGM5N2IxZGZlNjU0ODQ2MDQwNzI5ZjFhOGEyNGY4N2M5OTlhMjMxNDVlOTJkODBhMGVkNGM5NWE4NjAxZWI1Y2ZiNWVlN2JhNThkMGQxYjhmMzczYTA=
-        
+
+azure:
+  url: https://login.microsoftonline.com/%s/v2.0
+  tenet: bb466cbb-621c-493b-8374-6c8f26dc6a18
 
 

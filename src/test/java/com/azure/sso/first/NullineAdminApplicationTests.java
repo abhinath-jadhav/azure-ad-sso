@@ -1,4 +1,4 @@
-package com.nuline.ms.admin;
+package com.azure.sso.first;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

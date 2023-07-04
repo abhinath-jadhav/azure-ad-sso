@@ -13,10 +13,10 @@ eureka:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017
-      database: Nuline
+      uri: mongodb://mongo:MkBI6oX9pOSylRH41CKQ@containers-us-west-163.railway.app:7682
+      database: nuline-dev
   application:
-    name: ms-nuline-admin
+    name: ms-admin
 
 jwt:
   secret: YmU2ZDc5MTE5ZDAxZGFmMGQyYzgzZmZlMmZkMWFiMjVmYzBjMzIzZDEzZGM5N2IxZGZlNjU0ODQ2MDQwNzI5ZjFhOGEyNGY4N2M5OTlhMjMxNDVlOTJkODBhMGVkNGM5NWE4NjAxZWI1Y2ZiNWVlN2JhNThkMGQxYjhmMzczYTA=

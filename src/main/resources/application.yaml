@@ -1,10 +1,8 @@
 server:
-  port: 8080
-jwt:
-  secret: YmU2ZDc5MTE5ZDAxZGFmMGQyYzgzZmZlMmZkMWFiMjVmYzBjMzIzZDEzZGM5N2IxZGZlNjU0ODQ2MDQwNzI5ZjFhOGEyNGY4N2M5OTlhMjMxNDVlOTJkODBhMGVkNGM5NWE4NjAxZWI1Y2ZiNWVlN2JhNThkMGQxYjhmMzczYTA=
+  port: 8081
 
 azure:
-  url: https://login.microsoftonline.com/%s/v2.0
-  tenet: bb466cbb-621c-493b-8374-6c8f26dc6a18
-
-
+  uri:
+    issuer: https://login.microsoftonline.com/%s/v2.0
+    jwk: https://login.microsoftonline.com/%S/discovery/v2.0/keys
+  tenet: 79d9b46d-d3cf-4c83-afd1-79a0f23a7ad1
